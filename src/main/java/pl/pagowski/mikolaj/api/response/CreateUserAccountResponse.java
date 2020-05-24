@@ -1,4 +1,4 @@
-package pl.pagowski.mikolaj.response;
+package pl.pagowski.mikolaj.api.response;
 
 public class CreateUserAccountResponse {
 }

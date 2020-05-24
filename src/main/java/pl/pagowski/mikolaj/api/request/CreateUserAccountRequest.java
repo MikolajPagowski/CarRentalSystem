@@ -1,4 +1,4 @@
-package pl.pagowski.mikolaj.request;
+package pl.pagowski.mikolaj.api.request;
 
 public class CreateUserAccountRequest {
 }

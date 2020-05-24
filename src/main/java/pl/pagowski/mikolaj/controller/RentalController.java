@@ -2,7 +2,7 @@ package pl.pagowski.mikolaj.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.pagowski.mikolaj.response.BasicResponse;
+import pl.pagowski.mikolaj.api.response.BasicResponse;
 
 @RestController
 @RequestMapping("rental")

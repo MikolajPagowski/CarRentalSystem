@@ -2,9 +2,9 @@ package pl.pagowski.mikolaj.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.pagowski.mikolaj.response.BasicResponse;
-import pl.pagowski.mikolaj.request.CreateUserAccountRequest;
-import pl.pagowski.mikolaj.response.CreateUserAccountResponse;
+import pl.pagowski.mikolaj.api.response.BasicResponse;
+import pl.pagowski.mikolaj.api.request.CreateUserAccountRequest;
+import pl.pagowski.mikolaj.api.response.CreateUserAccountResponse;
 
 @RestController
 @RequestMapping("user-account")
