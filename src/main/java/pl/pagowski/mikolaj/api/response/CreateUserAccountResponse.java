@@ -7,6 +7,7 @@ public class CreateUserAccountResponse extends BasicResponse {
     private Long accountId;
 
     public CreateUserAccountResponse() {
+
     }
 
     public CreateUserAccountResponse(String responseMessage, Long accountId) {

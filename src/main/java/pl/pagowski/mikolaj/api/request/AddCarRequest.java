@@ -10,4 +10,5 @@ public class AddCarRequest {
     private CarClass carClass;
     private double rentalPrice;
     private Long parkingSpaceId;
+
 }

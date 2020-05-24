@@ -10,6 +10,7 @@ public class RentalController {
 
     @PutMapping(value = "/{carId}/car", produces = "application/json")
     public ResponseEntity<BasicResponse> createUserAccount(@PathVariable Long carId, @RequestParam Long accountId) {
+
         return null;
     }
 }

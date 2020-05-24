@@ -10,4 +10,5 @@ public class AddCarResponse extends BasicResponse {
         super(responseMessage);
         this.carId = carId;
     }
+
 }

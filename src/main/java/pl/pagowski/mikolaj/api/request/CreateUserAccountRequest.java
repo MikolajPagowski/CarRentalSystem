@@ -8,5 +8,4 @@ public class CreateUserAccountRequest {
     private String userName;
     private String email;
     private Integer age;
-
 }

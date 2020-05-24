@@ -13,6 +13,7 @@ public class BasicResponse {
     private ResponseStatus status;
 
     public BasicResponse() {
+
     }
 
     // set success response
