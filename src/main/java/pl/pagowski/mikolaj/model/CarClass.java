@@ -1,5 +1,10 @@
 package pl.pagowski.mikolaj.model;
 
 public enum CarClass {
-    Economy, Sport, Electric, Van, Cabrio, Exclusive
+    Economy,
+    Sport,
+    Electric,
+    Van,
+    Cabrio,
+    Exclusive
 }
