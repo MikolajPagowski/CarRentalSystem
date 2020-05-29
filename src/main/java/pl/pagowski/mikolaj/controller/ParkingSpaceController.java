@@ -10,7 +10,7 @@ import pl.pagowski.mikolaj.model.Car;
 import java.util.Set;
 
 @RestController
-@RequestMapping("parking-space")
+@RequestMapping("parkingSpace")
 public class ParkingSpaceController {
     @GetMapping(value = "/{parkingSpaceId}/cars", produces = "application/json")
     public ResponseEntity<Set<Car>> rechargeUserAccount(@PathVariable Long parkingSpaceId) {

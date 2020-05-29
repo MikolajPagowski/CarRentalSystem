@@ -5,6 +5,5 @@ public enum CarClass {
     Sport,
     Electric,
     Van,
-    Cabrio,
     Exclusive
 }

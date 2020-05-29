@@ -6,6 +6,7 @@ import lombok.Data;
 public class CreateUserAccountRequest {
 
     private String userName;
+    private String userSurname;
     private String email;
     private Integer age;
 }

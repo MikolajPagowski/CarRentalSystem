@@ -12,9 +12,9 @@ public class ParkingSpace {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+    private String parkingSpaceName;
     private Integer avaliablePlace;
 
-    @OneToMany(mappedBy = "parkingSpace", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "parking_space", cascade = CascadeType.ALL)
     private Set<Car> cars;
-
 }

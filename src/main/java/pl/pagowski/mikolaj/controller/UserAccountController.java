@@ -7,18 +7,16 @@ import pl.pagowski.mikolaj.api.request.CreateUserAccountRequest;
 import pl.pagowski.mikolaj.api.response.CreateUserAccountResponse;
 
 @RestController
-@RequestMapping("user-account")
+@RequestMapping("userAccount")
 public class UserAccountController {
 
     @PostMapping(value = "/create", produces = "application/json")
     public ResponseEntity<CreateUserAccountResponse> createUserAccount(@RequestBody CreateUserAccountRequest request) {
-
         return null;
     }
 
     @PutMapping(value = "/{accountId}/recharge", produces = "application/json")
     public ResponseEntity<BasicResponse> rechargeUserAccount(@PathVariable Long accountId, @RequestParam String amount) {
-
         return null;
     }
 
